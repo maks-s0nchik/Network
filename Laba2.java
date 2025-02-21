@@ -4,7 +4,7 @@ public class Laba2 {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             
-            System.out.print("Введіть значення α (в радіанах): ");
+            System.out.print("Введіть значення α : ");
             double alpha = scanner.nextDouble();
 
             double sinArg = 3 * Math.PI - 2 * alpha;
