@@ -1,8 +1,8 @@
 public class Laba3_2 {
     public static void main(String[] args) {
-        double a = 1.0, b = 2.0; // Значення a та b (замініть за потреби)
-        double T = 2.0; // Верхня межа x (замініть за потреби)
-        double h_x = 0.2; // Крок зміни x
+        double a = 1.0, b = 2.0;
+        double T = 2.0;
+        double h_x = 0.2;
 
         System.out.println("Завдання 2: Обчислення y = cos^3(z + a) - x");
         for (double x = 0; x <= T; x += h_x) {

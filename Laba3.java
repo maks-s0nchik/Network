@@ -1,6 +1,5 @@
 public class Laba3 {
     public static void main(String[] args) {
-        // Завдання 1
         double a = 1.0, b = 2.0;
         double h_x = 0.5, by = 1.5;
 
