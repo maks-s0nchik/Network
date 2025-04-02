@@ -22,6 +22,10 @@ public class Laba4_2 {
             }
         }
 
+        while (index > 0 && B[index - 1] == 0) {
+            index--;
+        }
+
         System.out.print("Оновлений масив: ");
         for (int i = 0; i < index; i++) {
             System.out.print(B[i] + " ");
