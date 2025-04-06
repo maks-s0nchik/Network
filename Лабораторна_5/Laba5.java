@@ -6,6 +6,15 @@ public class Laba5 {
         int[] products = new int[5];
         Random rand = new Random();
 
+        System.out.println("Двовимірний масив N:");
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 5; j++) {
+                N[i][j] = rand.nextInt(100);
+                System.out.print(N[i][j] + "\t");
+            }
+            System.out.println();
+        }
+
         for (int j = 0; j < 5; j++) {
             products[j] = 1;
             boolean hasValid = false;
@@ -16,15 +25,6 @@ public class Laba5 {
                 }
             }
             if (!hasValid) products[j] = 0;
-        }
-        
-        System.out.println("Двовимірний масив N:");
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 5; j++) {
-                N[i][j] = rand.nextInt(100);
-                System.out.print(N[i][j] + "\t");
-            }
-            System.out.println();
         }
 
         System.out.println("Добутки значень елементів кожного стовпця (де елементи у [10;55)):");
